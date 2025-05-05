@@ -1,0 +1,73 @@
+.payment-title {
+  color: #4a90e2;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.payment-methods {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.payment-option {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.payment-option img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.payment-option span {
+  font-size: 18px;
+  color: #333;
+}
+
+.payment-option.selected {
+  border-color: #4a90e2;
+  background-color: #f0f8ff;
+}
+
+.error-message {
+  color: red;
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.secondary-button,
+.primary-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.secondary-button {
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+.primary-button {
+  background-color: #4a90e2;
+  color: #fff;
+}
+
+.secondary-button:hover,
+.primary-button:hover {
+  opacity: 0.9;
+}

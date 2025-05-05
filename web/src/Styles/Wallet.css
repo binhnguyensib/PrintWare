@@ -1,0 +1,84 @@
+/* Wallet.css */
+/* Import Montserrat Font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.wallet-container {
+  background-image: url(../innerImg/bg.png);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  max-width: 1920px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Tiêu đề của Wallet */
+.wallet-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Kiểu dáng cho bảng */
+.wallet-info-table {
+  width: 50%;
+  border-collapse: collapse;
+  margin: 50px auto;
+}
+
+.wallet-info-table th,
+.wallet-info-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.wallet-info-table th {
+  background-color: #f3f6f4;
+  font-weight: bold;
+}
+
+.wallet-info-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.wallet-info-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Các hành động của Wallet */
+.wallet-actions {
+  text-align: center;
+}
+
+/* Style cho input và button */
+.wallet-actions input {
+  padding: 10px;
+  font-size: 1rem;
+  width: 200px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.wallet-actions button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  background-color: #ffb13a;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.wallet-actions button:hover {
+  background-color: #e89e31;
+}

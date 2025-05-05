@@ -1,0 +1,11 @@
+/* Ensure the overall layout behaves correctly */
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans', sans-serif;
+  height: 100%;
+ 
+  }
+ 
