@@ -1,6 +1,6 @@
 # Print Ware
 
-A multi-platform software project using React.js, React Native, and Node.js for printing services.
+A multi-platform software project using React.js and Node.js for printing services.
 
 ## Structure
 
