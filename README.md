@@ -5,7 +5,6 @@ A multi-platform software project using React.js, React Native, and Node.js for 
 ## Structure
 
 - **web/**: React web application.
-- **mobile/**: React Native mobile application.
 - **server/**: Node.js backend server.
 
 ## Installation
